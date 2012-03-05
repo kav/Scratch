@@ -33,7 +33,7 @@ app.configure 'development', ->
 # require('./controllers/initialize.coffee')
 
 app.get "/",(req,res) ->
-  res.render "Hello there!"
+  res.send "Hello there!"
 # require('./routes')()
 
 
