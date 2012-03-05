@@ -1,6 +1,6 @@
 express = require('express')
 global.app = module.exports = express.createServer()
-global.io = require('socket.io').listen(app)
+#global.io = require('socket.io').listen(app)
 # global.Together = require('together-bb').listen(io)
 # fsobjectify = require('fsobjectify')
 
