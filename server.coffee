@@ -37,6 +37,6 @@ app.get "/",(req,res) ->
 # require('./routes')()
 
 
-app.listen process.env.NODE_PORT ? 80
+app.listen  15227
 #console.log "Express server listening on port #{app.address().port} in #{app.settings.env} mode"
     
