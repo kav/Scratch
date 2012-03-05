@@ -31,6 +31,9 @@ app.configure 'development', ->
     dumpExceptions: true
     showStack: true
 # require('./controllers/initialize.coffee')
+
+app.get "/",(req,res) ->
+  res.render "Hello there!"
 # require('./routes')()
 
 
